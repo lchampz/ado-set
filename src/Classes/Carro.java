@@ -20,10 +20,12 @@ public class Carro extends Veiculo {
 
     @Override
     public void exibirDetalhes() {
+        System.out.println(" ");
         System.out.println("Marca: " + getMarca());
         System.out.println("Modelo: " + getModelo());
         System.out.println("Ano: " + getAno());
         System.out.println("Preco: " + getPreco());
         System.out.println("Qtd. de Portas: " + getQuantidadePortas());
+        System.out.println(" ");
     }
 }
